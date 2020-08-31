@@ -29,4 +29,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          if [ -z "$API_KEY" ]; then
+            echo 'no api key set!'
+            exit 1
+          fi
           echo $API_KEY
