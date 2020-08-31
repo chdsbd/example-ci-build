@@ -26,4 +26,5 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           ls
+          env
           bash git-push-fork-to-upstream-branch origin
