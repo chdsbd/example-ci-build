@@ -26,4 +26,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           ls
-          git remote -vvv
+          bash git-push-fork-to-upstream-branch origin
