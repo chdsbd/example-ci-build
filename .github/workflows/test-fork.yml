@@ -27,4 +27,4 @@ jobs:
           echo test, and deploy your project.
           ls
           env
-          bash git-push-fork-to-upstream-branch origin
+          bash git-push-fork-to-upstream-branch origin uncle-boris:"$GITHUB_HEAD_REF"
